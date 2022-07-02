@@ -431,8 +431,12 @@ form {
     /* HEADER */
 
     header {
-        justify-content: space-around;
+        justify-content: space-between;
         margin-bottom: 80px;
+    }
+
+    .logo{
+        margin-left: 10%;
     }
 
 
@@ -469,6 +473,7 @@ form {
     header .orange-button {
         display: block;
         transition: all 1s;
+        margin-right: 10%;
     }
 
     .hover-button:hover {
