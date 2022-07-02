@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
@@ -8,7 +8,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&family=Roboto:wght@400;500;700&display=swap');
 
-body{
+body {
     font-family: 'Be Vietnam Pro', sans-serif;
 }
 
@@ -18,25 +18,25 @@ body{
 
 
 
-header{
+header {
     display: flex;
     justify-content: space-around;
     align-items: center;
     height: 150px;
-    
+
 }
 
-nav{
+nav {
     display: none;
 }
 
-.orange-button{
+.orange-button {
     width: 134px;
     height: 44px;
-    background-color:#F3603B;
+    background-color: #F3603B;
     box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
     border-radius: 50px;
-    border:0;
+    border: 0;
     color: #FFFFFF;
     font-family: 'Be Vietnam Pro', sans-serif;
     font-size: 13px;
@@ -45,7 +45,7 @@ nav{
     cursor: pointer;
 }
 
- header .orange-button{
+header .orange-button {
     display: none;
 }
 
@@ -53,40 +53,40 @@ nav{
 
 /* HOME SECTION*/
 
-.home{
+.home {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
     width: 80%;
     margin: 0 10%;
-    gap:30px;
+    gap: 30px;
     margin-bottom: 400;
 }
 
-.home img{
+.home img {
     width: 100%;
 }
 
-.bottom-container-home{
+.bottom-container-home {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
 }
 
-.bottom-container-home h1{
+.bottom-container-home h1 {
     font-weight: 700;
     color: #232C50;
-    font-size:36px ;
-    line-height:44px;
+    font-size: 36px;
+    line-height: 44px;
     margin-bottom: 15px;
     text-align: center;
-   
+
 }
 
-.bottom-container-home p{
-    color:#B3B2B7;
+.bottom-container-home p {
+    color: #B3B2B7;
     font-size: 16px;
     line-height: 24px;
     margin-bottom: 30px;
@@ -97,46 +97,47 @@ nav{
 
 /*SOBRE NOSOTROS SECTION */
 
-.sobreNosotros{
+.sobreNosotros {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
     width: 90vw;
-    margin: 100px 5% ;
-}
-.top-sobreNosotros{
-display: flex;
-flex-direction: column;
-justify-content: space-between;
-align-items: center;
-width: 80vw;
+    margin: 100px 5% 60px;
 }
 
-.top-sobreNosotros h2{
+.top-sobreNosotros {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 80vw;
+}
+
+.top-sobreNosotros h2 {
     color: #232C50;
     font-weight: 700;
-    font-size:2rem ;
-    line-height:2.5rem;
+    font-size: 2rem;
+    line-height: 2.5rem;
     margin-bottom: 15px;
     text-align: center;
 }
 
-.top-sobreNosotros p{
-    color:#B3B2B7;
+.top-sobreNosotros p {
+    color: #B3B2B7;
     font-size: 1rem;
     line-height: 1.5rem;
     margin-bottom: 30px;
     text-align: center;
 }
 
-.containersSN{
+.containersSN {
     width: 95vw;
-    margin-left:5vw;
+    margin-left: 5vw;
     margin-bottom: 35px;
 }
 
-.title-containersSN{
+.title-containersSN {
     background-color: rgb(255, 239, 234);
     border-top-left-radius: 30px;
     border-bottom-left-radius: 30px;
@@ -144,7 +145,8 @@ width: 80vw;
     align-items: center;
     gap: 10px;
 }
-.containersSN p{
+
+.containersSN p {
     color: #B3B2B7;
     font-size: 0.938rem;
     line-height: 1.5rem;
@@ -152,28 +154,181 @@ width: 80vw;
     margin-top: 15px;
 }
 
-.title-containersSN h3{
+.title-containersSN h3 {
     color: #232C50;
     font-weight: 700;
     font-size: 0.938rem;
     line-height: 1.5rem;
 }
 
-.button-containersSN{
+.button-containersSN {
     width: 69px;
     height: 43px;
-    background-color:#F3603B;
+    background-color: #F3603B;
     border-radius: 30px;
-    border:0;
+    border: 0;
     color: #FFFFFF;
     font-family: 'Be Vietnam Pro', sans-serif;
     font-size: 1rem;
     font-weight: 500;
     padding: 10px 25px;
-    cursor: pointer;
+}
+
+.c3-SN {
+    margin-bottom: 0px;
+}
+
+/* SECTION TESTIMONIOS*/
+
+.testimonios {
+    width: 90vw;
+    margin: 0 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.testimonios h2 {
+    color: #232C50;
+    font-weight: 700;
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 75px;
+}
+
+.flexContainer-avatar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container-avatar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.container-avatar img {
+    width: 20%;
+    position: absolute;
+    bottom: 85%;
+}
+
+.bottom-container-avatar {
+    background-color: #FAFAFA;
+    padding: 20% 7.5% 10%;
+}
+
+.bottom-container-avatar p {
+    color: #B3B2B7;
+    font-size: 0.938rem;
+    line-height: 1.5rem;
+    margin-top: 20px;
+
+}
+
+.bottom-container-avatar h3 {
+    color: #232C50;
+    font-weight: 700;
+}
+
+.bottom-container-avatar h3,
+.bottom-container-avatar p {
+    text-align: center;
+}
+
+.c1-testimonios,
+.c3-testimonios {
+    display: none;
+
+}
+
+/* BUTTON SLIDERS (simulacion) */
+
+.slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    color: #FFFFFF;
+    gap: 2px;
+}
+
+.buttons-slider {
+    width: 10px;
+    height: 10px;
+    border-radius: 50px;
+    border: 1px solid #F3603B;
+}
+
+.active-buttons-slider {
+    background-color: #F3603B;
 }
 
 
+/* BUTTON IN BOTTOM MAIN */
+
+.container-button-bottomMain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+
+}
+
+/* PREFOOTER SECTINO */
+
+.prefooter {
+    background-color: #F3603B;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 25% 10%;
+    margin-top: 50px;
+    gap: 25px;
+}
+
+.prefooter h2 {
+    font-size: 2.25rem;
+    color: #FFFFFF;
+    text-align: center;
+
+}
+
+.button-prefooter {
+    color: #F3603B;
+    background-color: #FFFFFF;
+}
+
+/* FOOTER  */
+
+footer{
+    background-color: #1E1E26;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20% 10%;
+}
+
+form{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.25rem;
+}
+
+.email{
+    width: 200px;
+    height: 44px;
+    border-radius: 50px;
+    padding: 12.5px 48px 12.5px 10px;
+    border-color: #FFFFFF;
+}
 
 
 
@@ -181,134 +336,203 @@ width: 80vw;
 
 /*RESOLUCION DE MI PANTALLA */
 
-@media (min-width:1066px){
+@media (min-width:1066px) {
 
-/* HEADER */
+    /* HEADER */
 
-header{
-    justify-content: space-around;
-    margin-bottom: 115px;
+    header {
+        justify-content: space-around;
+        margin-bottom: 115px;
+    }
+
+
+    nav {
+        display: block;
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 28px;
+        list-style: none;
+    }
+
+    nav ul li {
+        color: #242E52;
+        font-size: 13px;
+        line-height: 19px;
+        font-weight: 700px;
+    }
+
+    .burger-menu {
+        display: none;
+    }
+
+    header .orange-button {
+        display: block;
+    }
+
+    /* MAIN */
+
+    /* HOME SECTION */
+
+    .home {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row-reverse;
+        align-items: center;
+        width: 80%;
+        margin: 0 10%;
+        height: 525px;
+    }
+
+    .bottom-container-home {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: flex-start;
+        gap: 25px;
+    }
+
+    .bottom-container-home h1 {
+        font-size: 58px;
+        line-height: 66px;
+        text-align: left;
+        margin: 0;
+
+    }
+
+    .bottom-container-home p {
+        color: #000000;
+        width: 70%;
+        line-height: 24px;
+        font-weight: 700;
+        text-align: left;
+        margin: 0;
+
+    }
+
+    /* SOBRE NOSOTROS SECTION */
+
+    .sobreNosotros {
+        flex-direction: row;
+        width: 80%;
+        margin: 0 10%;
+    }
+
+    .top-sobreNosotros {
+        align-self: flex-start;
+    }
+
+
+    .top-sobreNosotros h2 {
+        font-size: 2.25rem;
+        line-height: 2.563rem;
+        text-align: left;
+        margin-bottom: 35px;
+    }
+
+    .top-sobreNosotros p {
+        color: #000000;
+        width: 70%;
+        margin-right: 30%;
+        line-height: 1.5rem;
+        font-weight: 700;
+        text-align: left;
+    }
+
+    .containersSN {
+        width: 553px;
+        height: 158px;
+    }
+
+    .title-containersSN {
+        background-color: #FFFFFF;
+    }
+
+    .containersSN p {
+        font-size: 1.019rem;
+        line-height: 1.594rem;
+        width: 72%;
+        margin-left: 14%;
+    }
+
+    .c2-SN p {
+        width: 76%;
+    }
+
+    /* SECTION TESTIMONIOS */
+
+    .testimonios {
+        margin-top: 130px
+    }
+
+    .testimonios h2 {
+        margin-bottom: 110px;
+        font-size: 2.438rem;
+    }
+
+    .flexContainer-avatar {
+        flex-direction: row;
+    }
+
+    .c1-testimonios,
+    .c3-testimonios {
+        display: block;
+    }
+
+    .c1-testimonios img,
+    .c3-testimonios img {
+        left: 40%;
+    }
+
+
+    /* BUTTON SLIDERS */
+
+    .slider {
+        display: none;
+    }
+
+    .container-button-bottomMain {
+        margin-top: 57px;
+    }
+
+    /* SECTION PREFOOTER*/
+
+    /*No me gustaba como quedaba con space around, asi que cambien a space between y le di margenes a cada elemento 
+
+    Saque padding y gap por herencia del mobile, le di un alto en base al figma para que me centre automicamente mediante
+    flex*/
+
+
+    .prefooter {
+        flex-direction: row;
+        justify-content: space-between;
+        height: 225px;
+        padding: 0;
+        gap: 0;
+    }
+
+    .prefooter h2 {
+        font-size: 2.5rem;
+        width: 50%;
+        margin-left: 165px;
+        text-align: left;
+    }
+
+    .button-prefooter {
+        margin-right: 165px;
+    }
+
+
+
+
+
+
+
+
+
+
+
 }
-
-
-nav{
-    display: block;
-}
-
-nav ul{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 28px;
-    list-style: none;
-}
-
-nav ul li{
-    color: #242E52;
-    font-size: 13px;
-    line-height: 19px;
-    font-weight: 700px;
-}
-
-.burger-menu{
-    display: none;
-}
-
- header .orange-button{
-    display: block;
-}
-
-/* MAIN */
-
-/* HOME SECTION */
-
-.home{
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row-reverse;
-    align-items: center;
-    width: 80%;
-    margin: 0 10%;
-    height: 525px;
-}
-
-.bottom-container-home{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: flex-start;
-    gap: 25px;
-}
-
-.bottom-container-home h1{
-    font-size: 58px;
-    line-height: 66px;
-    text-align: left;
-    margin: 0;
-    
-}
-
-.bottom-container-home p{
-    color: #000000;
-    width: 70%;
-    line-height: 24px;
-    font-weight: 700;
-    text-align: left;
-    margin: 0;
-    
-}
-
-/* SOBRE NOSOTROS SECTION */
-
-.sobreNosotros{
-    flex-direction: row;
-    width: 80%;
-    margin: 0 10%;
-}
-
-.top-sobreNosotros{
-    align-self: flex-start;
-}
-
-
-.top-sobreNosotros h2{
-    font-size: 2.25rem;
-    line-height: 2.563rem;
-    text-align: left;
-    margin-bottom: 35px;
-}
-
-.top-sobreNosotros p{
-    color: #000000;
-    width: 70%;
-    margin-right: 30%;
-    line-height: 1.5rem;
-    font-weight: 700;
-    text-align: left;
-}
-
-.containersSN{
-    width:553px;
-    height: 158px;
-}
-
-.title-containersSN{
-    background-color:#FFFFFF ;
-}
-
-.containersSN p{
-    font-size: 1.019rem;
-    line-height: 1.594rem;
-    width:72%;
-    margin-left: 14%;
-}
-
-.c2-SN p{
-    width: 76%;
-}
-
-
-
-}
-
-
