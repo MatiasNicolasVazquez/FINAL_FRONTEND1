@@ -320,6 +320,7 @@ form {
     justify-content: space-between;
     align-items: center;
     width: 90%;
+    gap:0.25rem;
 }
 
 .email {
